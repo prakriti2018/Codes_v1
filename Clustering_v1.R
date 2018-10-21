@@ -45,7 +45,7 @@ cluster_1<-r[r$cluster01==1,]
 cluster_2<-r[r$cluster01==2,]
 cluster_3<-r[r$cluster01==3,]
 
-summary(cluster_1)[,c(4:10)] #My Understanding:
+summary(cluster_1)[,c(4:10)] #My Understanding:-
 summary(cluster_2)[,c(4:10)] #My Understanding:
 summary(cluster_3)[,c(2:10)] #My Understanding: 
 
