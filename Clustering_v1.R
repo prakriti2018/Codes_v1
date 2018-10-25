@@ -1,4 +1,4 @@
-
+# branch codes
 # Step1:- Reading the Original Data
 
 r = data.frame
@@ -45,9 +45,9 @@ cluster_1<-r[r$cluster01==1,]
 cluster_2<-r[r$cluster01==2,]
 cluster_3<-r[r$cluster01==3,]
 
-summary(cluster_1)[,c(4:10)] #My Understanding:-
-summary(cluster_2)[,c(4:10)] #My Understanding:-
-summary(cluster_3)[,c(2:10)] #My Understanding:-
+summary(cluster_1)[,c(4:10)] #My Understanding:
+summary(cluster_2)[,c(4:10)] #My Understanding:
+summary(cluster_3)[,c(2:10)] #My Understanding:
 
 #scatter plot
 plot(c(cluster_1$wc,cluster_2$wc,cluster_3$wc),col = c("green","red","blue"),main = "wordcount")
